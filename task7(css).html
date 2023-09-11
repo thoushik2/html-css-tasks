@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+   <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #a82c54; /* Background color */
+        }
+        form {
+            background-color: #78243c; /* Inner content color */
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: white; /* Font color */
+            width: 100%;
+            max-width: 400px;
+            align-items: center;
+            align-content: center;
+        }
+        
+         input {
+            width: 5%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+      
+        select{
+            width: 50%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .center-button {
+            text-align: center;
+        }
+
+        .center-button button {
+            background-color: #a82c54; /* Button color */
+            color: white; /* Button text color */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .center-button button:hover {
+            background-color: #78243c; /* Button hover color */
+        }
+    
+        </style>
+    <body>
+        <form>
+            <div class="firstfour">
+            <label for="fullname">Full name:</label>
+            <input type="text" id="fullname" required style="width: 50%;"><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" required style="width: 50%;"><br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" required style="width: 50%;" ><br>
+    
+            <label for="repassword">Re Password:</label>
+            <input type="password" id="repassword" required style="width: 50%;"><br></div>
+    <div id="gender">
+            <label>Gender:</label>
+                <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="other">Other</label><br>
+           
+        </div>
+    
+            <label for="language">Language:</label>
+            <select name="language" id="language" required>
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+            </select><br>
+    
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" id="zipcode" required style="width: 50%;"><br>
+    
+            <label for="about">About:</label>
+            <textarea id="about" required style="width: 50%;"></textarea><br>
+    
+            <div class="center-button">
+                <button type="submit" style="background-color: white; color: black; ">Register</button>
+            </div>
+        </form>
+    </body>
+    </html>

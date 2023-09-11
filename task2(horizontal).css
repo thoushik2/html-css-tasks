@@ -1,0 +1,31 @@
+/* Styles for the horizontal navigation bar */
+.horizontal-nav {
+    background-color: #d8d4d4; /* Background color for the entire bar */
+    padding: 10px 0;
+}
+
+.horizontal-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.horizontal-nav ul li {
+    display: inline;
+    margin-right: 0; /* Remove margin-right to prevent double spacing */
+    padding-right: 20px; /* Add padding to create space between links */
+    border-right: 1px solid black; /* Add a vertical line between links */
+}
+
+.horizontal-nav a {
+    text-decoration: none;
+    color: blue; /* Text color for links */
+    background-color: #d8d4d4; /* Background color for links */
+    padding: 10px 20px; /* Add padding to create a button-like appearance */
+    border-radius: 5px; /* Rounded corners for the links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.horizontal-nav a:hover {
+    color: white; /* Text color on hover */
+    background-color: #848484; /* Background color on hover */
+}

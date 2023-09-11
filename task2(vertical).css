@@ -1,0 +1,29 @@
+.vertical-nav {
+    width: 200px;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+.vertical-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vertical-nav ul li {
+    margin-bottom: 10px;
+}
+
+.vertical-nav a {
+    text-decoration: none;
+    color: blue;
+    background-color: skyblue;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.vertical-nav a:hover {
+    color: white;
+    background-color: #ffeb3b;
+}

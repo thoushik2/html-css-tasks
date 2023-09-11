@@ -1,0 +1,24 @@
+table.striped-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.striped-table th,
+table.striped-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table.striped-table th {
+    background-color: #08ac6c;
+    color: #fff;
+}
+
+table.striped-table tbody tr:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+table.striped-table tbody tr:nth-child(2n+1) {
+    background-color: #e8e9eb;
+}
